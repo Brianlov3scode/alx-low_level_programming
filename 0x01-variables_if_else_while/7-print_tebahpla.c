@@ -3,19 +3,23 @@
 /**
  * main - Entry point
  *
- * Description: Prints single-digit numbers of base 10 from 0 to 9.
+ * Description: Prints the lowercase alphabet in reverse.
  * Only the putchar function is used (twice).
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int num;
+	char letter = 'z';
 
-	for (num = 0; num < 10; num++)
-		putchar((num % 10) + '0');
+	while (letter >= 'a')
+	{
+		putchar(letter);
+		letter--;
+	}
 
 	putchar('\n');
 
 	return (0);
 }
+
