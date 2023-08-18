@@ -2,9 +2,9 @@
 #include <stdio.h>
 /**
  * main - function prints the numbers from 1-100 , but for multiples of three,
- *      Fizz is printed for the number ,for multiples of five 
+ *      Fizz is printed for the number ,for multiples of five
  *      Buzz is printed for the numbers , for multipes of three
- *      FizzBuzz is printed for numbers which are both the multipes of both three and five 
+ *FizzBuzz is printed for numbers which are multipes of both three and five
  * Return: Always 0.
  */
 int main(void)
