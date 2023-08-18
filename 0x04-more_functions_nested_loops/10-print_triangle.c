@@ -2,7 +2,7 @@
 
 /**
  * print_triangle - function prints a triangle using the character #
- * @size: the size of the triangle 
+ * @size: the size of the triangle
  */
 
 void print_triangle(int size)
@@ -11,7 +11,7 @@ void print_triangle(int size)
 
 	if (size > 0)
 	{
-		for (hash = i; hash <= size; hash++)
+		for (hash = 1; hash <= size; hash++)
 		{
 			for (index = size - hash; index > 0; index--)
 			{
